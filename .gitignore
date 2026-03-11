@@ -32,10 +32,7 @@ pnpm-debug.log*
 .env.*
 !.env.example
 
-# Large/local data artifacts (keep out of git by default)
-dataset/
-*.npy
-*.faiss
+# Large data artifacts are tracked with Git LFS (.gitattributes)
 
 # Build/runtime artifacts
 *.log
